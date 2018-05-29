@@ -49,7 +49,7 @@ class GPSLocation: NSObject, CLLocationManagerDelegate {
                 delegate?.callbackErrorLocation(location: "Error")
             }
         } else {
-            //print("other error:" , error.localizedDescription)
+            ///print("other error:" , error.localizedDescription)
         }
         
     }
